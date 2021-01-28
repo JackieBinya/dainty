@@ -4,10 +4,9 @@
     <Navigation />
 
     <div class="space">
-      I am home page
+      I am Team Page!
     </div>
 
-    <Subscription />
     <PreFooter />
     <Footer />
   </div>
@@ -18,21 +17,20 @@
   
   import Navigation from '../components/reusable/Navigation.vue';
 
-  import Subscription from '../components/reusable/Subscription.vue';
   import PreFooter from '../components/reusable/PreFooter.vue';
   import Footer from '../components/reusable/Footer.vue';
 
   export default {
     components: {
       Navigation,
-
-      Subscription,
       PreFooter,
       Footer
     }
   }
 
+
 </script>
+
 
 <style scoped>
 

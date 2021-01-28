@@ -38,9 +38,9 @@ ul, li {margin: 0px; padding: 0px; list-style-type: none;}
 ::-webkit-scrollbar {width: 5px;}
 ::-webkit-scrollbar:hover {width: 5px;cursor:pointer;} 
 /* Track */
-::-webkit-scrollbar-track {-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.11);-webkit-border-radius: 0px;border-radius: 0px;}
+::-webkit-scrollbar-track {box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.11);-webkit-border-radius: 0px;border-radius: 0px;}
 /* Handle */
-::-webkit-scrollbar-thumb {-webkit-border-radius: 0px;border-radius: 0px;background: rgba(0, 0, 0, 1);-webkit-box-shadow: inset 0 0 15px rgba(237, 237, 237, 1);}
+::-webkit-scrollbar-thumb {-webkit-border-radius: 0px;border-radius: 0px;background: rgba(0, 0, 0, 1);box-shadow: inset 0 0 15px rgba(237, 237, 237, 1);}
 ::-webkit-scrollbar-thumb:window-inactive {background: rgba(60, 49, 49, 0.56);}
 
 /*placeholder*/
@@ -50,6 +50,6 @@ ul, li {margin: 0px; padding: 0px; list-style-type: none;}
 :-moz-placeholder {color: #ccc; font-weight: 100;}
 
 /* input focus */
-input:focus, select:focus, textarea:focus {box-shadow: inset 0px 0px 6px rgba(3, 169, 244, 0.34);border: 1px solid #077cb252;outline:none;}
+input:focus, select:focus, textarea:focus {outline:none;}
 
 </style>
