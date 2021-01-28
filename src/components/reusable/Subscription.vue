@@ -1,5 +1,5 @@
 <template>
-  <section class="dty--subscription">
+  <section class="dty--subscription" :style="{ backgroundImage: 'url('+require(`../../assets/images/particles.png`)+')'}">
     <div class="dty--wrapper dty--wrapper--650px">
       <h3>Don’t miss<br />our future updates!</h3>
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta molestias repellat officia. Quos consequuntur fugit reprehenderit error tempora laborum alias! Suscipit dignissimos reiciendis odio tenetur sapiente excepturi</p>
@@ -20,7 +20,7 @@
 
 <style>
 
-.dty--subscription {width: 100%;height: auto;padding: 65px 0;background-color: #fff;background-position: center;background-repeat: no-repeat;background-size: cover;overflow: hidden;}
+.dty--subscription {width: 100%;height: auto;padding: 75px 0;background-color: #fff;background-position: center;background-repeat: no-repeat;background-size: contain;overflow: hidden}
 .dty--subscription h3 {font-size: 32pt;text-align: center;letter-spacing: -0.55px;color: #424e58;font-weight: 200;line-height: 35pt;}
 .dty--subscription p {color: #31495d;font-size: 13pt;line-height: 23pt;text-align: center;padding: 20px 0;}
 .dty--subscription .dty-subtn--form {width: 60%;height: 50px;border: 1px solid #2196f3;border-radius: 45px;margin: 0px auto;overflow: hidden;text-align: left;}

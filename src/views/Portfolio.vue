@@ -2,11 +2,12 @@
 
   <div>
     <Navigation />
+    <Hero 
+      :title="title" 
+      :description="description"
+      :image="image" />
 
-    <div class="space">
-      I am Portfolio page
-    </div>
-
+    <Projects />
     <Clients />
 
     <Subscription />
@@ -19,7 +20,9 @@
 <script>
   
   import Navigation from '../components/reusable/Navigation.vue';
+  import Hero from '../components/reusable/Hero.vue';
 
+  import Projects from '../components/portfolio/Projects.vue';
   import Clients from '../components/portfolio/Clients.vue';
 
   import Subscription from '../components/reusable/Subscription.vue';
@@ -29,12 +32,22 @@
   export default {
     components: {
       Navigation,
+      Hero,
 
+      Projects,
       Clients,
 
       Subscription,
       PreFooter,
       Footer
+    },
+
+    data() {
+      return {
+        title: 'Consequuntur enim ratione sequi aperiam.',
+        description: 'Id ab modi fuga deleniti consequuntur enim ratione sequi aperiam quae animi odio itaque illum sapiente nesciunt cum odit, perferendis facere officia possimus qui consequuntur enim ratione sequi aperiam consequuntur enim ratione sequi aperiam.',
+        image: 'portfolio.svg'
+      }
     }
   }
 
@@ -44,9 +57,6 @@
 
 <style scoped>
 
-  .space {    width: 100%;
-    height: 650px;
-    text-align: center;
-    padding-top: 185px;}
+
 
 </style>

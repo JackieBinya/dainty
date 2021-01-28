@@ -1,38 +1,21 @@
 <template>
-  <router-view/>
+  <router-view />
 </template>
 
 <style>
 
-body, h1, h2, h3, h4, h5 {margin: 0px; padding: 0px;    font-family: "DM Sans", Arial, Tahoma, sans-serif;}
+body, h1, h2, h3, h4, h5 {margin: 0px; padding: 0px;font-family: "DM Sans", Arial, Tahoma, sans-serif;}
 ul, li {margin: 0px; padding: 0px; list-style-type: none;}
 
-#app {
-  font-family: "DM Sans", Arial, Tahoma, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
+#app {font-family: "DM Sans", Arial, Tahoma, sans-serif;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;text-align: center;color: #2c3e50;}
+#nav {padding: 30px;}
+a.router-link-exact-active {color: #2196f3 !important;border-bottom: 2px solid #2196f3 !important;}
 
 /* other styles */
 /* Selection Color */
-::selection {background:#ff9900;color:#fff;text-shadow:none;}
-::-moz-selection {background:#ff9900;color:#fff;text-shadow:none;}
-::-webkit-selection {background:#ff9900;color:#fff;text-shadow:none;}
+::selection {background:#1fcfd4;color:#fff;text-shadow:none;}
+::-moz-selection {background:#1fcfd4;color:#fff;text-shadow:none;}
+::-webkit-selection {background:#1fcfd4;color:#fff;text-shadow:none;}
 
 /* Let's get this party started */
 ::-webkit-scrollbar {width: 5px;}

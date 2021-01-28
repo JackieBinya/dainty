@@ -2,10 +2,10 @@
 
   <div>
     <Navigation />
-
-    <div class="space">
-      I am Pricing Page!
-    </div>
+    <Hero 
+      :title="title" 
+      :description="description"
+      :image="image" />
 
     <PreFooter />
     <Footer />
@@ -16,6 +16,7 @@
 <script>
   
   import Navigation from '../components/reusable/Navigation.vue';
+  import Hero from '../components/reusable/Hero.vue';
 
   import PreFooter from '../components/reusable/PreFooter.vue';
   import Footer from '../components/reusable/Footer.vue';
@@ -23,8 +24,18 @@
   export default {
     components: {
       Navigation,
+      Hero,
+
       PreFooter,
       Footer
+    },
+
+    data() {
+      return {
+        title: 'Tenetur voluptates expedita!',
+        description: 'Aperiam soluta nesciunt sunt veniam commodi, quia saepe esse voluptatum id. Perspiciatis error maxime neque aliquam corrupti asperiores, laborum expedita sunt, possimus, beatae et consectetur.',
+        image: 'pricing.svg'
+      }
     }
   }
 
@@ -34,9 +45,6 @@
 
 <style scoped>
 
-  .space {    width: 100%;
-    height: 650px;
-    text-align: center;
-    padding-top: 185px;}
+
 
 </style>

@@ -20,14 +20,7 @@ export default {
 
 
 .dty--wrapper--650px {width: 650px !important}
-section.dty-pre--footer {width: 100%;
-    height: auto;
-    padding: 65px 0;
-    background-color: #2196F3;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;}
+section.dty-pre--footer {width: 100%;height: auto;padding: 75px 0;background-color: #2196F3;background-position: center;background-repeat: no-repeat;background-size: cover;overflow: hidden;}
 section.dty-pre--footer h4 {font-size: 28pt;text-align: center;letter-spacing: -0.55px;color: #fff;}
 section.dty-pre--footer p {color: #fff;font-size: 13pt;text-align: center;}
 span.dty-btn--blue {display: inline-block;background: rgb(33 150 243);border: 1px solid #ffffff;width: 120px;border-radius: 45px;text-align: center;height: auto;color: #ffffff;padding: 13px;cursor: pointer;}

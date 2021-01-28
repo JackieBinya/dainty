@@ -68,10 +68,11 @@ nav {width: 100%;height: 80px;color: #fff;border-bottom: 1px solid #e8e8e8;backg
 .dty--wrapper {width: 1170px;height: auto;overflow: hidden;margin: 0px auto;transition: all .5s ease;-moz-transition: all .5s ease;-webkit-transition: all .5s ease;-o-transition: all .5s ease;}
 
 .dty-nav--logo {float: left;width: 190px;height: 65px;overflow: hidden;margin-top: 12px;}
+.dty-nav--logo a {border: none !important;}
 .dty-nav--logo img {width: 120px;}
-ul.dty-nav--menu {width: auto;margin: 0px auto;height: 50px;position: relative;margin-top: 12px;float: right;padding: 0px;list-style-type: none;}
+ul.dty-nav--menu {width: auto;margin: 0px auto;height: 68px;position: relative;margin-top: 12px;float: right;padding: 0px;list-style-type: none;}
 ul.dty-nav--menu > li {width: auto;height: auto;float: left;position: relative;}
-ul.dty-nav--menu > li > a {display: block;width: auto;height: auto;padding: 16px 20px;color: rgba(0, 0, 0, 0.9);font-size: 13pt;font-weight: 200;text-decoration: none;}
+ul.dty-nav--menu > li > a {display: block;width: auto;height: 34px;padding: 16px 20px;color: rgba(0, 0, 0, 0.9);font-size: 13pt;font-weight: 200;text-decoration: none;border-bottom: 2px solid transparent;}
 .dty-nav--action {width: 200px;height: 45px;float: right;margin-top: 15px;}
 .dty-btn-gradient {display: block;background: rgb(33 150 243);border: 1px solid #1479ca;width: 120px;border-radius: 45px;text-align: center;height: auto;color: #fff;padding: 13px;cursor: pointer;}
 
