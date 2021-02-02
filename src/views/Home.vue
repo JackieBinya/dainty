@@ -2,10 +2,7 @@
 
   <div>
     <Navigation />
-    <Hero 
-      :title="title" 
-      :description="description"
-      :image="image" />
+    <Hero :pageHero="pageHero" />
 
     <Subscription />
     <PreFooter />
@@ -35,9 +32,14 @@
 
     data() {
       return {
-        title: 'Consectetur adipisicing elit aliquam asperiores.',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta veritatis qui temporibus ipsam cupiditate magni exercitationem aliquam asperiores facere, quisquam id recusandae veniam sed consequatur, suscipit cum!',
-        image: 'home.svg'
+        pageHero : {
+          hasBreadcumb: false,
+          background: '#f6f6f8',
+          page: 'Home',
+          title: 'Consectetur adipisicing elit aliquam asperiores.',
+          description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta veritatis qui temporibus ipsam cupiditate magni exercitationem aliquam asperiores facere, quisquam id recusandae veniam sed consequatur, suscipit cum!',
+          image: 'home.svg'
+        }
       }
     }
   }

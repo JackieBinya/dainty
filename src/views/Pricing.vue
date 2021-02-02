@@ -2,10 +2,7 @@
 
   <div>
     <Navigation />
-    <Hero 
-      :title="title" 
-      :description="description"
-      :image="image" />
+    <Hero :pageHero="pageHero" />
 
     <PreFooter />
     <Footer />
@@ -32,9 +29,14 @@
 
     data() {
       return {
-        title: 'Tenetur voluptates expedita!',
-        description: 'Aperiam soluta nesciunt sunt veniam commodi, quia saepe esse voluptatum id. Perspiciatis error maxime neque aliquam corrupti asperiores, laborum expedita sunt, possimus, beatae et consectetur.',
-        image: 'pricing.svg'
+        pageHero : {
+          hasBreadcumb: true,
+          background: '#f6f6f8',
+          page: 'Pricing',
+          title: 'Tenetur voluptates expedita!',
+          description: 'Aperiam soluta nesciunt sunt veniam commodi, quia saepe esse voluptatum id. Perspiciatis error maxime neque aliquam corrupti asperiores, laborum expedita sunt, possimus, beatae et consectetur.',
+          image: 'pricing.svg',
+        }
       }
     }
   }

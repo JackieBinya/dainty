@@ -2,10 +2,7 @@
 
   <div>
     <Navigation />
-    <Hero 
-      :title="title" 
-      :description="description"
-      :image="image" />
+    <Hero :pageHero="pageHero" />
 
     <Projects />
     <Clients />
@@ -44,9 +41,14 @@
 
     data() {
       return {
-        title: 'Consequuntur enim ratione sequi aperiam.',
-        description: 'Id ab modi fuga deleniti consequuntur enim ratione sequi aperiam quae animi odio itaque illum sapiente nesciunt cum odit, perferendis facere officia possimus qui consequuntur enim ratione sequi aperiam consequuntur enim ratione sequi aperiam.',
-        image: 'portfolio.svg'
+        pageHero : {
+          hasBreadcumb: true,
+          background: '#f6f6f8',
+          page: 'Portfolio',
+          title: 'Consequuntur enim ratione sequi aperiam.',
+          description: 'Id ab modi fuga deleniti consequuntur enim ratione sequi aperiam quae animi odio itaque illum sapiente nesciunt cum odit, perferendis facere officia possimus qui consequuntur enim ratione sequi aperiam consequuntur enim ratione sequi aperiam.',
+          image: 'portfolio.svg',
+        }
       }
     }
   }
