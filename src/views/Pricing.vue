@@ -4,6 +4,9 @@
     <Navigation />
     <Hero :pageHero="pageHero" />
 
+    <Plans />
+    <Faqs />
+
     <PreFooter />
     <Footer />
   </div>
@@ -15,6 +18,10 @@
   import Navigation from '../components/reusable/Navigation.vue';
   import Hero from '../components/reusable/Hero.vue';
 
+  import Plans from '../components/pricing/Plans.vue';
+  import Faqs from '../components/pricing/Faqs.vue';
+
+
   import PreFooter from '../components/reusable/PreFooter.vue';
   import Footer from '../components/reusable/Footer.vue';
 
@@ -22,6 +29,9 @@
     components: {
       Navigation,
       Hero,
+
+      Plans,
+      Faqs,
 
       PreFooter,
       Footer

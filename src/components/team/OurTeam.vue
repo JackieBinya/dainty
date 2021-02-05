@@ -252,7 +252,6 @@ section.dty--teams ul.section2 > li > .dts-team--12 .contain {bottom: 2px;right:
 
 
 /* previous */
-
 section.dty--teams ul.section1 > li > .dts-team--2 .contain {
 -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 30px, calc(100% - 30px) 0);
 clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 30px, calc(100% - 30px) 0);}
@@ -280,5 +279,6 @@ section.dty--teams ul.section1 > li:last-child {float: right;width: 40%;}
 section.dty--teams ul.section1 > li > .dts-team--2 {width: 100%;height: 360px;background-repeat: no-repeat;background-size: cover;background-position: center;margin-top: -90px;position: relative;z-index: 99;}
 section.dty--teams ul.section1 > li > .dts-team--2 .trigle {    border-bottom: 80px solid transparent;border-right: 80px solid #FFFFFF;right: 0;top: 0;position: absolute;}
 section.dty--teams ul.section1 > li > .dts-team--3 {width: 75%;height: 280px;background-repeat: no-repeat;background-size: cover;background-position: center;position: relative;z-index: 99;}
+
 
 </style>
